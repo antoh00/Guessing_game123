@@ -3,7 +3,7 @@
 
 int main(){
 	int roundsAvailable;
-	roundsAvailable = 3;
+	roundsAvailable = 1;
 	play(roundsAvailable);
 	return 0;
 }

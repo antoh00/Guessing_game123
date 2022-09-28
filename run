@@ -1,0 +1,5 @@
+#!/bin/bash
+clear
+gcc -pedantic -Wall -Werror -Wextra -std=gnu89 main.c play.c -o output1
+./output1 > result.txt
+cat result.txt
